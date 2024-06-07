@@ -1,5 +1,6 @@
 const Activity = require("../models/activityModel");
 
+//getAllActivities
 const getAllActivities = async (req, res, next) => {
   try {
     const allActivities = await Activity.find();
